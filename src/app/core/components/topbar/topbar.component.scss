@@ -1,0 +1,21 @@
+@import './../../../../color.scss';
+
+.top-section {
+  display: flex;
+  background-color: $santander-main-color;
+  justify-content: space-between;
+
+  &-logo {
+    width: 7em;
+    padding-top: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.main-content {
+  height: 100vh;
+  background-color: $background-color;
+}
